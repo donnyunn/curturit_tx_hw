@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "BHI260AP")(type "KiCad")(uri "${KIPRJMOD}/lib/BHI260AP.kicad_sym")(options "")(descr ""))
+  (lib (name "MDBT50Q-1M")(type "KiCad")(uri "${KIPRJMOD}/lib/MDBT50Q-1M.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "DLM0QSN500HY2D")(type "KiCad")(uri "${KIPRJMOD}/lib/DLM0QSN500HY2D.kicad_sym")(options "")(descr ""))
+  (lib (name "Local_devices")(type "KiCad")(uri "${KIPRJMOD}/lib/Local_devices.kicad_sym")(options "")(descr ""))
+  (lib (name "0ZCJ0050AF2E")(type "KiCad")(uri "${KIPRJMOD}/lib/0ZCJ0050AF2E.kicad_sym")(options "")(descr ""))
+  (lib (name "BLM15AG700SN1D")(type "KiCad")(uri "${KIPRJMOD}/lib/BLM15AG700SN1D.kicad_sym")(options "")(descr ""))
+)

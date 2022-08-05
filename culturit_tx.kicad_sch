@@ -1,5 +1,150 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 165.1 114.3) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9e0f1fe0-2fcc-4e96-84c9-b35726e658d5)
+    (property "Sheet name" "BHI260AP" (id 0) (at 165.1 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "04_Culturit_Tx_BHI260.kicad_sch" (id 1) (at 165.1 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 76.2 38.1) (size 50.8 101.6) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8)
+    (property "Sheet name" "MDBT50Q" (id 0) (at 76.2 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "03_Curturit_Tx_MDBT.kicad_sch" (id 1) (at 76.2 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 165.1 38.1) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ec86ed94-250f-4411-abc1-430cd40d9990)
+    (property "Sheet name" "USB Connector" (id 0) (at 165.1 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "01_Culturit_Tx_UsbCon.kicad_sch" (id 1) (at 165.1 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 165.1 76.2) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f3f07d98-b780-4b2e-a979-4057042f4915)
+    (property "Sheet name" "Power" (id 0) (at 165.1 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "02_Culturit_Tx_Power.kicad_sch" (id 1) (at 165.1 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990" (page "2"))
+    (path "/f3f07d98-b780-4b2e-a979-4057042f4915" (page "3"))
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8" (page "4"))
+    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/2b5aa1a1-523f-4ac7-8753-9c4f28624111"
+      (reference "#PWR01") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/dfc8c195-1c4f-4bda-821f-777e77e4f09d"
+      (reference "#PWR02") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/428924ca-a250-4479-bb96-249f815da05a"
+      (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/e9b8a57f-1f5f-4a5f-b1ce-bcc794e751ce"
+      (reference "#PWR04") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/33007ab1-1548-4247-82ae-d63989708316"
+      (reference "#PWR05") (unit 1) (value "VUSB") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/e94f1ed4-3574-4ae3-846f-b81544db9db4"
+      (reference "#PWR06") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/6a553523-6f5e-4d9a-a5c2-ff6b0725a73b"
+      (reference "#PWR0101") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/75847baf-1722-4290-a3c2-12d73bcd4763"
+      (reference "#PWR0102") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/2aa641f0-90f7-4de3-8789-f07a447f4e5d"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/fdb7328f-9132-4311-9d9f-28f3802e3de1"
+      (reference "#PWR?") (unit 1) (value "VUSB") (footprint "")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/aa5b4bc5-3d6b-4a64-b1b6-44b61f5b31a4"
+      (reference "C1") (unit 1) (value "100nF, 16V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/84f2e808-4e58-4de0-b910-bfca599a9e0b"
+      (reference "C2") (unit 1) (value "220nF, 16V") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/6683a9dc-555d-4067-9470-1d5c0e641769"
+      (reference "C3") (unit 1) (value "1nF(1812),X7R,2kV") (footprint "Capacitor_SMD:C_1812_4532Metric")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/1947b911-fa73-4824-8cdc-d333a725a9db"
+      (reference "C4") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/7fb47ff6-3af2-45a4-b77c-a0e06e337c4d"
+      (reference "D1") (unit 1) (value "SMAJ7.0A") (footprint "Diode_SMD:D_SMA")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/1a9b83cf-6add-4400-b1e3-2446666e4c43"
+      (reference "D2") (unit 1) (value "VBUS052CD-FAH-GS08") (footprint "Local_devices:LLP1713-7L")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/e018e623-d0a8-42bb-a4b9-56489867aeae"
+      (reference "F1") (unit 1) (value "0ZCJ0050AF2E") (footprint "Local_devices:FUSC3216X120N")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/589ce68b-c25f-41f8-bfb4-9c590af1d787"
+      (reference "F2") (unit 1) (value "0ZCJ0075FF2E") (footprint "Local_devices:FUSC3216X120N")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/81861715-1e38-4853-9bbd-e51fd39632e0"
+      (reference "FB1") (unit 1) (value "BLM15AG700SN1D") (footprint "Local_devices:BLM15AG700SN1D")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/464199a5-5226-467c-98b4-1521b44fe720"
+      (reference "J1") (unit 1) (value "USB4105-GF-A") (footprint "Local_devices:GCT_USB4105-GF-A")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/cab52f31-bd43-4889-a818-94d67d18a1cd"
+      (reference "J2") (unit 1) (value "Battery") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/3a69599e-6a19-44c0-9a56-2f46d4803f02"
+      (reference "L1") (unit 1) (value "DLM0QSN500HY2D") (footprint "Local_devices:DLM0QSB120HY2D")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/57e92597-6470-4a42-b336-efc0e8b549c1"
+      (reference "R1") (unit 1) (value "22") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/4cbe4726-7f59-402c-944b-af88a3249b7c"
+      (reference "R2") (unit 1) (value "22") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/ec86ed94-250f-4411-abc1-430cd40d9990/7da91088-fbab-45de-9fdf-cc77b6a21e7c"
+      (reference "R3") (unit 1) (value "1M(1608)") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/47f3411a-9586-4d9c-8491-0d263552cbf9"
+      (reference "U13") (unit 1) (value "MDBT50Q-1M") (footprint "Local_devices:MDBT50Q-1M")
+    )
+    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/f631a7a3-ad7d-4556-8d3b-b269f1165b54"
+      (reference "U15") (unit 1) (value "BHI260AP") (footprint "Local_devices:BHI260AP")
+    )
+  )
 )
