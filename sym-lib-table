@@ -16,4 +16,5 @@
   (lib (name "TPS6282618DMQR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS6282618DMQR.kicad_sym")(options "")(descr ""))
   (lib (name "SN74AUP2G08RSER")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AUP2G08RSER.kicad_sym")(options "")(descr ""))
   (lib (name "TPS22916CNYFPT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS22916CNYFPT.kicad_sym")(options "")(descr ""))
+  (lib (name "IN-P32TATRGB")(type "KiCad")(uri "${KIPRJMOD}/lib/IN-P32TATRGB.kicad_sym")(options "")(descr ""))
 )
