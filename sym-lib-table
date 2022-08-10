@@ -17,4 +17,7 @@
   (lib (name "SN74AUP2G08RSER")(type "KiCad")(uri "${KIPRJMOD}/lib/SN74AUP2G08RSER.kicad_sym")(options "")(descr ""))
   (lib (name "TPS22916CNYFPT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS22916CNYFPT.kicad_sym")(options "")(descr ""))
   (lib (name "IN-P32TATRGB")(type "KiCad")(uri "${KIPRJMOD}/lib/IN-P32TATRGB.kicad_sym")(options "")(descr ""))
+  (lib (name "DS28E05R+T")(type "KiCad")(uri "${KIPRJMOD}/lib/DS28E05R+T.kicad_sym")(options "")(descr ""))
+  (lib (name "BMM150")(type "KiCad")(uri "${KIPRJMOD}/lib/BMM150.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q32JWZPIQ")(type "KiCad")(uri "${KIPRJMOD}/lib/W25Q32JWZPIQ.kicad_sym")(options "")(descr ""))
 )
