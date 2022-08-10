@@ -379,7 +379,8 @@
         "microvia_drill": 0.1,
         "name": "Pwr",
         "nets": [
-          "+2V8"
+          "+2V8",
+          "VDDIO"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
