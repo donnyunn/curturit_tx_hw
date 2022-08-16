@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2022-08-16")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
@@ -812,9 +816,6 @@
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/de1317ae-829d-49d0-95c1-d523edf0ae4b"
       (reference "#PWR0124") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/f3f07d98-b780-4b2e-a979-4057042f4915/a49e2991-f1ad-4919-8a99-555fa3e2350f"
-      (reference "#PWR0125") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/2e1d3444-d338-4ed0-8e3f-817b3badaccc"
       (reference "#PWR0126") (unit 1) (value "+1V8") (footprint "")
     )
@@ -1000,6 +1001,9 @@
     )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/2c4df81b-d53e-495a-8687-d004a8312a50"
       (reference "#PWR0187") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/9cc04b53-d9ee-4b6b-8ec9-74130fa71aa8"
+      (reference "#PWR0188") (unit 1) (value "+1V8") (footprint "")
     )
     (path "/ec86ed94-250f-4411-abc1-430cd40d9990/aa5b4bc5-3d6b-4a64-b1b6-44b61f5b31a4"
       (reference "C1") (unit 1) (value "100nF, 16V") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1207,6 +1211,9 @@
     )
     (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/36717149-97b0-4e7b-8b49-8ba42b0a5f85"
       (reference "R26") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/7293cd7e-9a6e-4772-bfd9-bf55a1cc78e0"
+      (reference "R27") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/19763e9e-c103-4514-a6a0-857ac5a974d2"
       (reference "R29") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
