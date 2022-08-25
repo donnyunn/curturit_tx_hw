@@ -20,4 +20,7 @@
   (lib (name "DS28E05R+T")(type "KiCad")(uri "${KIPRJMOD}/lib/DS28E05R+T.kicad_sym")(options "")(descr ""))
   (lib (name "BMM150")(type "KiCad")(uri "${KIPRJMOD}/lib/BMM150.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q32JWZPIQ")(type "KiCad")(uri "${KIPRJMOD}/lib/W25Q32JWZPIQ.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ27441DRZR-G1A")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ27441DRZR-G1A.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX1555EZK+T")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX1555EZK+T.kicad_sym")(options "")(descr ""))
+  (lib (name "APHHS1005SURCK")(type "KiCad")(uri "${KIPRJMOD}/lib/APHHS1005SURCK.kicad_sym")(options "")(descr ""))
 )
