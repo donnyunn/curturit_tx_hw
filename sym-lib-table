@@ -26,4 +26,5 @@
   (lib (name "SKSCLDE010")(type "KiCad")(uri "${KIPRJMOD}/lib/SKSCLDE010.kicad_sym")(options "")(descr ""))
   (lib (name "MMBD4148")(type "KiCad")(uri "${KIPRJMOD}/lib/MMBD4148.kicad_sym")(options "")(descr ""))
   (lib (name "TCR3UG33A_LF")(type "KiCad")(uri "${KIPRJMOD}/lib/TCR3UG33A_LF.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS62A01ADRLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS62A01ADRLR.kicad_sym")(options "")(descr ""))
 )
