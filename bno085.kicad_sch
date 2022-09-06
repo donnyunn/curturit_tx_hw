@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (date "2022-09-05")
+    (date "2022-09-06")
   )
 
   (lib_symbols
@@ -529,7 +529,7 @@
   )
 
   (no_connect (at 156.21 83.82) (uuid ffa55f97-42cd-4b56-ba58-3d2098eacf89))
-  (no_connect (at 156.21 96.52) (uuid ffa55f97-42cd-4b56-ba58-3d2098eacf89))
+  (no_connect (at 156.21 96.52) (uuid ffa55f97-42cd-4b56-ba58-3d2098eacf8a))
 
   (wire (pts (xy 106.68 88.9) (xy 106.68 86.36))
     (stroke (width 0) (type default) (color 0 0 0 0))
