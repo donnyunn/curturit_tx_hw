@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (date "2022-08-29")
+    (date "2022-09-05")
   )
 
   (lib_symbols
@@ -1340,7 +1340,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c636186e-b20b-45be-907c-22f99c44d410)
   )
-  (label "FLASH_D2" (at 134.62 72.39 0)
+  (label "FLASH_D2" (at 134.62 67.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fcba75e2-e95e-4935-88ac-64172535acf4)
   )
@@ -1348,6 +1348,10 @@
   (hierarchical_label "IMU_INT1" (shape input) (at 134.62 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1928ab37-c256-493a-b708-ef09c81ebaee)
+  )
+  (hierarchical_label "IMU_BOOTN" (shape input) (at 134.62 72.39 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 360a84a1-f56a-49da-9d38-34b65d18a47e)
   )
   (hierarchical_label "IMU_SPI_SCK" (shape input) (at 134.62 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1396,6 +1400,14 @@
   (hierarchical_label "IMU_SPI_MISO" (shape input) (at 134.62 85.09 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid cb10ecc3-673a-4bc4-ba57-2a2a67c33bca)
+  )
+  (hierarchical_label "IMU_NRST" (shape input) (at 134.62 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d8f3468c-042a-431a-9078-9cef94a41cf8)
+  )
+  (hierarchical_label "IMU_WAKE" (shape input) (at 134.62 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f74e1ead-5603-46cd-9e3b-07666689aab5)
   )
 
   (symbol (lib_id "Device:C") (at 270.51 125.73 0) (mirror y) (unit 1)
