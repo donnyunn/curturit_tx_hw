@@ -31,3 +31,5 @@ fp-info-cache
 # Etc.
 /gerber
 /jlcpcb
+/seeed
+/pcbway
