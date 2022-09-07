@@ -1,0 +1,40 @@
+### Module positions - created on Wed Sep  7 16:57:42 2022 ###
+### Printed by Pcbnew version (6.0.0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                       PosX       PosY       Rot  Side
+C1        4.7nF/1608        C_0603_1608Metric          47.0000   -61.5000   90.0000  top
+C2        10nF              C_0402_1005Metric          45.0000   -59.7500  180.0000  top
+C3        100nF             C_0402_1005Metric          48.5000   -56.7500    0.0000  top
+C4        100nF             C_0402_1005Metric          59.7500   -54.7500  -90.0000  top
+C7        10nF              C_0402_1005Metric          55.0000   -41.2500   90.0000  top
+C8        1uF(1608)         C_0603_1608Metric          59.7500   -51.0000   90.0000  top
+C9        100nF             C_0402_1005Metric          53.0000   -40.2500   90.0000  top
+C10       10nF              C_0402_1005Metric          54.5000   -39.7500    0.0000  top
+C13       22uF/2012         C_0805_2012Metric          56.0000   -44.0000    0.0000  top
+C14       10uF              C_0603_1608Metric          54.2500   -48.7500  -90.0000  top
+C20       100nF             C_0402_1005Metric          53.0000   -42.0000  -90.0000  top
+D1        MMBD4148          SOT23                      57.2500   -51.7500    0.0000  top
+FB1       MMZ1005Y121CT000  L_0402_1005Metric          46.7500   -59.0000  180.0000  top
+FB2       MMZ1005Y121CT000  L_0402_1005Metric          54.0000   -41.2500  -90.0000  top
+LED1      APHHS1005SURCK    LED_0402_1005Metric        50.5000   -62.0000  180.0000  top
+LED2      IN-P32TATRGB      INP32TATRGB                44.0000   -41.5000  -90.0000  top
+Q2        FDN340P           SOT23                      58.7500   -46.7500    0.0000  top
+R1        1M(1608)          R_0603_1608Metric          48.5000   -61.5000   90.0000  top
+R4        330               R_0402_1005Metric          52.5000   -62.0000   90.0000  top
+R10       10k               R_0402_1005Metric          56.2500   -57.5000  180.0000  top
+R11       20k               R_0402_1005Metric          57.2500   -56.2500    0.0000  top
+R12       10k               R_0402_1005Metric          58.5000   -49.7500   90.0000  top
+R14       100k              R_0402_1005Metric          56.0000   -45.5000  180.0000  top
+R15       1k                R_0402_1005Metric          56.5000   -48.7500   90.0000  top
+R16       1k                R_0402_1005Metric          55.5000   -48.7500   90.0000  top
+R24       10k               R_0402_1005Metric          50.2500   -44.0000    0.0000  top
+R25       100               R_0402_1005Metric          46.0000   -40.5000  -90.0000  top
+R26       33                R_0402_1005Metric          47.0000   -43.2500  -90.0000  top
+R27       33                R_0402_1005Metric          46.0000   -43.2500  -90.0000  top
+S1        SKSCLDE010        SKSCLDE010                 58.5000   -58.5000   45.0000  top
+S2        SKSCLDE010        SKSCLDE010                 58.5000   -41.5000  135.0000  top
+U1        MAX1555EZK+T      SOT95P275X110-5N           50.2500   -58.7500    0.0000  top
+U5        MDBT50Q-1M        MDBT50Q-1M                 45.5000   -50.0000   90.0000  top
+U7        BNO055            LGA-28_5.2x3.8mm_P0.5mm    50.0000   -40.5000   90.0000  top
+## End
