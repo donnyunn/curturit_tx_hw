@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 0.55,
+          "width": 0.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -504,8 +504,8 @@
       "MDBT50Q"
     ],
     [
-      "3239e741-4b5a-4ced-814a-c8e2e717eeba",
-      "BNO085"
+      "9e0f1fe0-2fcc-4e96-84c9-b35726e658d5",
+      "BHI260AP"
     ]
   ],
   "text_variables": {}
