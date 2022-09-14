@@ -1644,7 +1644,7 @@
     (uuid 3e9fae16-d7fb-42c3-aba6-9b15173e5aa1)
     (property "Reference" "FB2" (id 0) (at 111.8108 111.76 90))
     (property "Value" "MMZ1005Y121CT000" (id 1) (at 111.8108 114.3 90))
-    (property "Footprint" "" (id 2) (at 111.76 117.602 90)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (id 2) (at 111.76 117.602 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz1005_en.pdf" (id 3) (at 111.76 119.38 0)
