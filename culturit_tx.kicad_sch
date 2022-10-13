@@ -6,7 +6,8 @@
 
   (title_block
     (title "culturit_tx (BHI)")
-    (date "2022-09-06")
+    (date "2022-10-13")
+    (rev "v0.6")
     (company "donnyunn@gmail.com")
   )
 
@@ -235,6 +236,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 619d63b0-9c83-46f8-ac74-a1af81064986)
   )
+  (wire (pts (xy 165.1 53.34) (xy 203.2 53.34))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 62ac4b5a-dee5-468e-8738-0e4893a8209e)
+  )
   (wire (pts (xy 76.2 43.18) (xy 114.3 43.18))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 917beb68-127a-49a7-8dc2-5163b4c1c684)
@@ -246,10 +251,6 @@
   (wire (pts (xy 76.2 50.8) (xy 114.3 50.8))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9a07ac4d-31c4-4769-a678-7fff7ffb1a9e)
-  )
-  (wire (pts (xy 165.1 71.12) (xy 203.2 71.12))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a1bd2e6a-63d6-4593-bbc2-dd89618131a9)
   )
   (wire (pts (xy 176.53 124.46) (xy 176.53 127))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -333,6 +334,34 @@
     (property "Sheet file" "04_Culturit_Tx_BHI260.kicad_sch" (id 1) (at 203.2 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "HOST_CS" input (at 203.2 60.96 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 316f758f-fa3e-4a88-8401-5a6b9c518723)
+    )
+    (pin "HOST_MISO" input (at 203.2 66.04 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 113cde14-df60-4424-ad1d-2e9aeb134eb7)
+    )
+    (pin "HOST_SCK" input (at 203.2 68.58 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e0c5f708-78bb-408d-bbf8-c7e059c4a73d)
+    )
+    (pin "HOST_MOSI" input (at 203.2 63.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 241aef35-b75c-4da7-a4bf-8911e077ae31)
+    )
+    (pin "HOST_INT" input (at 203.2 55.88 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0c303439-92b4-41f4-a88c-f0d7c5a245fd)
+    )
+    (pin "GPIO_MCSB4" input (at 203.2 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 96f683a7-7f78-4298-9e06-fc23479d8e3b)
+    )
+    (pin "HOST_NRST" input (at 203.2 53.34 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 96ed3ff1-931c-4284-adf7-007cfd726f3e)
+    )
   )
 
   (sheet (at 114.3 38.1) (size 50.8 101.6) (fields_autoplaced)
@@ -373,10 +402,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 534e0a7b-d677-4fb2-85c4-df181139ede2)
     )
-    (pin "BNO_WAKE" input (at 165.1 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 47213b91-da39-42f7-808d-8196c8a2b805)
-    )
     (pin "HOST_CSN" input (at 165.1 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6080649b-98ac-41e5-9ce9-f0044d80a4da)
@@ -385,7 +410,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 35714d2e-52f3-448d-a6e0-6b300c1ddb67)
     )
-    (pin "BNO_NRST" input (at 165.1 53.34 0)
+    (pin "HOST_NRST" input (at 165.1 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 816f16b8-42cc-42ae-837e-c2231c0637e3)
     )
@@ -401,7 +426,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3fd7550a-f951-433a-842e-32f2037afd1b)
     )
-    (pin "BNO_BOOTN" input (at 165.1 58.42 0)
+    (pin "GPIO_MCSB4" input (at 165.1 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b624435e-a428-4c1f-905f-093cbf70bcc6)
     )
@@ -578,6 +603,12 @@
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/77b34948-73ff-4661-80c0-1775b4a9c80d"
       (reference "#PWR030") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/1910d10c-2f2b-41e6-a094-077a72888d75"
+      (reference "#PWR031") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/995129a8-eb04-40ef-a6a5-8d49feef1722"
+      (reference "#PWR032") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/e1341a4d-89a3-451f-9240-dd68e2a3b4eb"
       (reference "#PWR033") (unit 1) (value "Earth") (footprint "")
     )
@@ -605,20 +636,14 @@
     (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/41172fdc-068d-4e50-9ae5-30fa002625f8"
       (reference "#PWR041") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/8245a6c4-2bea-4b4c-b988-2130d2ead7d0"
-      (reference "#PWR042") (unit 1) (value "Earth") (footprint "")
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/c621f4c9-1d6e-4143-a9c7-68425d26ac6d"
+      (reference "#PWR042") (unit 1) (value "+1V8") (footprint "")
     )
     (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/a24cf183-b318-48c4-b9d7-269fa86ce7d7"
       (reference "#PWR043") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/917f56fc-c5d9-4117-bbad-99832aee860e"
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/c6389d47-fe9e-42be-a2cc-093c9133faf3"
       (reference "#PWR044") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/b90dc511-0fe6-4d20-b9f2-88469902bb27"
-      (reference "#PWR045") (unit 1) (value "+1V8") (footprint "")
-    )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/76ace861-d81c-42c2-986e-c00645775667"
-      (reference "#PWR046") (unit 1) (value "Earth") (footprint "")
     )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/6a2d09e5-ec58-4b41-bdc9-36b85e62f156"
       (reference "#PWR047") (unit 1) (value "Earth") (footprint "")
@@ -662,9 +687,6 @@
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/46a9e4a8-a10c-4fe2-ad66-57469e0038f4"
       (reference "#PWR060") (unit 1) (value "+1V8") (footprint "")
     )
-    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/79b5c970-2cd5-4423-9515-9f446add76d7"
-      (reference "#PWR061") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/234e9f06-346b-4583-9ea1-9f6976070a6d"
       (reference "#PWR062") (unit 1) (value "Earth") (footprint "")
     )
@@ -677,9 +699,6 @@
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/eb1dba17-2b80-4581-9d56-27e7c0e163eb"
       (reference "#PWR065") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/03b5cee1-f5b5-4354-95b7-8e7c66e802a1"
-      (reference "#PWR066") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/49572224-7634-4fe2-8497-a622b87c27d2"
       (reference "#PWR067") (unit 1) (value "+1V8") (footprint "")
     )
@@ -688,12 +707,6 @@
     )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/37bb5ae1-344d-4ac3-a19d-a3544404afae"
       (reference "#PWR069") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/1241a013-55ba-4076-ada4-33b69f5685ea"
-      (reference "#PWR070") (unit 1) (value "+1V8") (footprint "")
-    )
-    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/2fbe0c76-0e2d-4b2f-a15f-1a87fe25b80a"
-      (reference "#PWR071") (unit 1) (value "Earth") (footprint "")
     )
     (path "/ec86ed94-250f-4411-abc1-430cd40d9990/02a074d6-2998-4cf4-ad15-d28b418572f3"
       (reference "#PWR0101") (unit 1) (value "+1V8") (footprint "")
@@ -740,7 +753,13 @@
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/d4983cb1-2194-4729-bfdf-d768661c0d99"
       (reference "C13") (unit 1) (value "22uF/2012") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/03bd3033-bed0-469a-a7b3-322c062fc30b"
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/4a82fbb4-4f86-44b0-a57a-8df7352281e3"
+      (reference "C14") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/eeb6afd2-3b0a-4904-a170-3386013ab6c9"
+      (reference "C15") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/e9743ca3-cd15-4f97-98b3-4b31791015d4"
       (reference "C16") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/182ebfd7-a2bc-4006-a98b-de75388e08b0"
@@ -760,9 +779,6 @@
     )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/1db76402-af99-4858-beda-f15c15285554"
       (reference "C22") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/1fea0e4e-9984-463b-b7eb-1f362f486d63"
-      (reference "C23") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/ec86ed94-250f-4411-abc1-430cd40d9990/d4f4bd35-b969-4251-9057-212d1361b823"
       (reference "CN1") (unit 1) (value "2.54 X 2P") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -795,13 +811,13 @@
       (reference "LED3") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/7eab498a-be0f-4f22-8536-fe996ac90f55"
-      (reference "Q1") (unit 1) (value "MMBT2222LT1G") (footprint "Local_devices:SOT23")
+      (reference "Q1") (unit 1) (value "MMBT3904,215") (footprint "Local_devices:SOT23")
     )
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/75689cf3-e1b7-4aa1-8672-1630f048e618"
-      (reference "Q2") (unit 1) (value "FDN340P") (footprint "Local_devices:SOT23")
+      (reference "Q2") (unit 1) (value "AO3401A") (footprint "Local_devices:SOT23")
     )
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/0d6bd594-5b69-407a-bb90-3d11f16fdf66"
-      (reference "Q3") (unit 1) (value "MMBT2222LT1G") (footprint "Local_devices:SOT23")
+      (reference "Q3") (unit 1) (value "MMBT3904,215") (footprint "Local_devices:SOT23")
     )
     (path "/ec86ed94-250f-4411-abc1-430cd40d9990/7da91088-fbab-45de-9fdf-cc77b6a21e7c"
       (reference "R1") (unit 1) (value "1M(1608)") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -929,17 +945,17 @@
     (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/47f3411a-9586-4d9c-8491-0d263552cbf9"
       (reference "U5") (unit 1) (value "MDBT50Q-1M") (footprint "Local_devices:MDBT50Q-1M")
     )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/7adefd7f-8646-4a16-9ff5-193e4be36f90"
-      (reference "U6") (unit 1) (value "W25Q32JWZPIQ") (footprint "Local_devices:SON127P600X500X80-9N-D")
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/69e48c34-a2bd-49ef-a70b-68ca40a1bb8c"
+      (reference "U6") (unit 1) (value "MX25R6435FM2IH0") (footprint "Package_SO:SOP-8_5.28x5.23mm_P1.27mm")
     )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/f631a7a3-ad7d-4556-8d3b-b269f1165b54"
       (reference "U7") (unit 1) (value "BHI260AP") (footprint "Local_devices:BHI260AP")
     )
-    (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/65d4d345-3e0c-4f4b-b0ff-858c30fd3f03"
-      (reference "U8") (unit 1) (value "W25Q32JWZPIQ") (footprint "Local_devices:SON127P600X500X80-9N-D")
-    )
     (path "/9e0f1fe0-2fcc-4e96-84c9-b35726e658d5/9d2de40e-a037-4cf1-9781-261567f558b4"
       (reference "U9") (unit 1) (value "BMM150") (footprint "Package_CSP:WLCSP-12_1.56x1.56mm_P0.4mm")
+    )
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/75d99a53-b183-484d-ba22-112c672e0acc"
+      (reference "Y1") (unit 1) (value "32.768MHz") (footprint "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm")
     )
   )
 )
