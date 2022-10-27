@@ -758,14 +758,14 @@
     (path "/ec86ed94-250f-4411-abc1-430cd40d9990/f6a46e04-f017-4718-a608-8f8fe24e892b"
       (reference "LED1") (unit 1) (value "APHHS1005SURCK") (footprint "LED_SMD:LED_0402_1005Metric")
     )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/b16b9ef4-a69d-4302-9989-550c68f5d2b3"
-      (reference "LED2") (unit 1) (value "IN-P32TATRGB") (footprint "Local_devices:INP32TATRGB")
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/722523c0-4d27-44c9-b235-aaf0a133277a"
+      (reference "LED2") (unit 1) (value "CLV1L-FKB-CJ1N1E1BB7B3B3") (footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW")
     )
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/7eab498a-be0f-4f22-8536-fe996ac90f55"
       (reference "Q1") (unit 1) (value "MMBT2222LT1G") (footprint "Local_devices:SOT23")
     )
-    (path "/f3f07d98-b780-4b2e-a979-4057042f4915/75689cf3-e1b7-4aa1-8672-1630f048e618"
-      (reference "Q2") (unit 1) (value "FDN340P") (footprint "Local_devices:SOT23")
+    (path "/f3f07d98-b780-4b2e-a979-4057042f4915/e919c3ca-be2d-4517-b9e6-318421fc04eb"
+      (reference "Q2") (unit 1) (value "Q_PMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f3f07d98-b780-4b2e-a979-4057042f4915/0d6bd594-5b69-407a-bb90-3d11f16fdf66"
       (reference "Q3") (unit 1) (value "MMBT2222LT1G") (footprint "Local_devices:SOT23")
@@ -839,11 +839,11 @@
     (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/5963b6c5-f3cb-49fd-ac85-679b8e253913"
       (reference "R25") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/24a8f592-8522-457b-b98e-dc202ee7e463"
-      (reference "R26") (unit 1) (value "33") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/5b9b5412-616d-47e7-83ab-c4fe2afcb587"
+      (reference "R26") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/5b28e053-6dce-45f8-82f7-dd71bcea5090"
-      (reference "R27") (unit 1) (value "33") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/cc5876ad-d1e1-4601-a6b1-2ecc2cb597c8/55305c6e-b793-48dc-8ef7-99ff50b78fff"
+      (reference "R27") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/3239e741-4b5a-4ced-814a-c8e2e717eeba/fb4b4b89-7e17-476e-b47b-80412b47a44f"
       (reference "R28") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
