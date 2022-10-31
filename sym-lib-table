@@ -28,4 +28,5 @@
   (lib (name "TCR3UG33A_LF")(type "KiCad")(uri "${KIPRJMOD}/lib/TCR3UG33A_LF.kicad_sym")(options "")(descr ""))
   (lib (name "TPS62A01ADRLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS62A01ADRLR.kicad_sym")(options "")(descr ""))
   (lib (name "MIC5317-3.3YM5-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/MIC5317-3.3YM5-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4110-GF-A")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4110-GF-A.kicad_sym")(options "")(descr ""))
 )

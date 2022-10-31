@@ -1,0 +1,69 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*
+G04 #@! TF.CreationDate,2022-10-31T23:33:13+09:00*
+G04 #@! TF.ProjectId,culturit_tx,63756c74-7572-4697-945f-74782e6b6963,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Bot*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-10-31 23:33:13*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10R,1.700000X0.900000*%
+%ADD11C,0.650000*%
+%ADD12C,0.500000*%
+%ADD13R,1.700000X1.700000*%
+%ADD14O,1.700000X1.700000*%
+%ADD15C,0.550000*%
+%ADD16RotRect,1.700000X1.700000X45.000000*%
+%ADD17HorizOval,1.700000X0.000000X0.000000X0.000000X0.000000X0*%
+G04 APERTURE END LIST*
+D10*
+X53000000Y-28050000D03*
+X53000000Y-31450000D03*
+D11*
+X50147000Y-26610000D03*
+X50147000Y-32390000D03*
+D12*
+X45182500Y-24900000D03*
+X44282500Y-24900000D03*
+X43382500Y-24900000D03*
+X45182500Y-23900000D03*
+X44282500Y-23900000D03*
+X43382500Y-23900000D03*
+D13*
+X27550000Y-17250000D03*
+D14*
+X25010000Y-17250000D03*
+X22470000Y-17250000D03*
+X19930000Y-17250000D03*
+D15*
+X46000000Y-19000000D03*
+X46000000Y-17200000D03*
+D16*
+X52301562Y-21101562D03*
+D17*
+X50505511Y-19305511D03*
+M02*
